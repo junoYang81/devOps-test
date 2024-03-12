@@ -14,7 +14,7 @@ public class ArraylistDemo4 {
     int score;
     do {
       System.out.println("숫자를 입력하세요. 종료하려면 -값을 입력해주세요 : ");
-      int score = in.nextInt();
+      score = in.nextInt();
     if (score >= 0) {
       scores.add(score);}
     } while (score >= 0);
